@@ -1,0 +1,17 @@
+region: us-east-1
+ami_id: ami-0a7d80731ae1b2435
+instances:
+  - name: master_node
+    type: t2.micro
+    volume_size: 30
+    env: dev
+
+  - name: worker_analytics_node
+    type: tr.micro
+    volume_size: 30
+    env: testing
+
+  - name: prod_node
+    type: t2.small
+    volume_size: 30
+    env: production
