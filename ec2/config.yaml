@@ -5,13 +5,3 @@ instances:
     type: t2.micro
     volume_size: 30
     env: dev
-
-  - name: worker_analytics_node
-    type: tr.micro
-    volume_size: 30
-    env: testing
-
-  - name: prod_node
-    type: t2.small
-    volume_size: 30
-    env: production
