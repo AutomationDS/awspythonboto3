@@ -5,3 +5,8 @@ instances:
     type: t2.micro
     volume_size: 30
     env: dev
+    instances:
+      - name: master_node
+        type: t2.micro
+        volume_size: 30
+        env: dev
